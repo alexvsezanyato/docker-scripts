@@ -1,13 +1,13 @@
 Команды выполняются из корня проекта, если не описано иное.
 Процесс установки описан для использования в демонстрационном режиме.
 
-```
+```bash
 cp .env.docker site/.env
 ./container build
 ./container up
 ```
 
-```
+```bash
 docker exec -it coal-php-fpm bash # (вход в контейнер с php)
 composer install
 php artisan key:generate
@@ -16,7 +16,7 @@ php artisan db:seed
 exit # (выход из контейнера)
 ```
 
-```
+```bash
 ./container node # (вход в контейнер с нодой)
 - npm install
 - npx mix
@@ -24,7 +24,7 @@ exit # (выход из контейнера)
 
 Читаем что ответила команда, если ошибок нет, то получаем список скомпилированных фалов или сообщение что дополнительные зависимости установлены, надо запустить команду ещё раз.
 
-```python
+```
         Additional dependencies must be installed. This will only take a moment.
         
         Running: npm install @babel/preset-react --save-dev --legacy-peer-deps
