@@ -8,4 +8,6 @@
 /.idea
 /.vscode
 /platform
-/volumes/nginx/var/log
+log
+/volumes/nginx/var/log/nginx/access.log
+/volumes/nginx/var/log/nginx/error.log
