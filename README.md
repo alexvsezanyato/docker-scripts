@@ -1,5 +1,6 @@
-![alt text](https://github.com/alexvsezanyato/coal/blob/dev/screenshots/1.png?raw=true)
-![alt text](https://github.com/alexvsezanyato/coal/blob/dev/screenshots/2.png?raw=true)
+![main page image](https://github.com/alexvsezanyato/coal/blob/dev/screenshots/1.png?raw=true)
+![catalog page image](https://github.com/alexvsezanyato/coal/blob/dev/screenshots/2.png?raw=true)
+![demo video](https://github.com/alexvsezanyato/coal/blob/dev/screenshots/1.webm)
 
 Команды выполняются из корня проекта, если не описано иное.
 Процесс установки описан для использования в демонстрационном режиме.
