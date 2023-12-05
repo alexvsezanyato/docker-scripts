@@ -10,7 +10,7 @@ cp .env.docker site/.env
 ```bash
 docker exec -it coal-php-fpm bash # (вход в контейнер с php)
 composer install
-php artisan key:generate
+php artisan key:generate # Если connection refused, то ждем, контейер mysql с БД инициализируется
 php artisan migrate
 php artisan db:seed
 exit # (выход из контейнера)
