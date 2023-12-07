@@ -51,12 +51,6 @@ h1 {
     border-left: 4px solid #fff;
 }
 
-@media screen and (max-width: 600px) {
-    .slider-1 {
-        height: 220px;
-    }
-}
-
 @media screen and (max-width: 800px) {
     .slider-1 .request {
         display: none;
@@ -64,5 +58,11 @@ h1 {
 
     .slider-1 .slider-description {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider-1 {
+        height: 220px;
     }
 }
