@@ -2,11 +2,6 @@ const mix = require('laravel-mix')
 const fs = require('fs')
 const path = require('path')
 
-mix.alias({
-    '@': './resources/js/react',
-    '@images': './public/images'
-})
-
 mix.sourceMaps()
 
 mix.styles(
