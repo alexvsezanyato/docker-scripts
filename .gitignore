@@ -11,3 +11,4 @@
 log
 /volumes/nginx/var/log/nginx/access.log
 /volumes/nginx/var/log/nginx/error.log
+/site
