@@ -5,3 +5,7 @@
 body {
     background: var(--main-background-color);
 }
+
+.image-source {
+    background: #fff;
+}
